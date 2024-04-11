@@ -1,7 +1,7 @@
+import Page from 'components/layout/Page';
 import { Metadata } from 'next';
 import App from './App';
 import NavBar from './NavBar';
-import Page from 'components/layout/Page';
 import styles from './layout.module.css';
 
 export default function ({ children }) {
@@ -21,7 +21,7 @@ export default function ({ children }) {
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | Umami',
-    default: 'Umami',
+    template: '%s | FLUX',
+    default: 'FLUX',
   },
 };
