@@ -39,7 +39,7 @@ export function LoginForm() {
       <Icon className={styles.icon} size="xl">
         <Logo />
       </Icon>
-      <div className={styles.title}>FLUX</div>
+      <div className={styles.title}>Flux Interactive - Analytics</div>
       <Form className={styles.form} onSubmit={handleSubmit} error={getMessage(error)}>
         <FormRow label={formatMessage(labels.username)}>
           <FormInput

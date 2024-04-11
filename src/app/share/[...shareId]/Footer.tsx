@@ -5,7 +5,7 @@ export function Footer() {
   return (
     <footer className={styles.footer}>
       <a href={HOMEPAGE_URL}>
-        <b>FLUX</b> {`v${CURRENT_VERSION}`}
+        <b>Flux Interactive Pty Ltd - Analytics</b> {`v${CURRENT_VERSION}`}
       </a>
     </footer>
   );

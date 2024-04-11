@@ -84,7 +84,7 @@ export function NavBar() {
         <Icon size="lg">
           <Icons.Logo />
         </Icon>
-        <Text>FLUX</Text>
+        <Text>Flux</Text>
       </div>
       <div className={styles.links}>
         {links.map(({ url, label }) => {

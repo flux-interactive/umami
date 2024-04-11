@@ -33,7 +33,7 @@ export default function ({ children }) {
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | FLUX',
-    default: 'FLUX',
+    template: '%s',
+    default: 'Flux Analytics',
   },
 };
