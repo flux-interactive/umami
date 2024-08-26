@@ -5,6 +5,10 @@ import NavBar from './NavBar';
 import styles from './layout.module.css';
 
 export default function ({ children }) {
+  if (process.env.DISABLE_UI) {
+    return null;
+  }
+
   return (
     <App>
       <main className={styles.layout}>
